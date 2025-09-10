@@ -51,7 +51,7 @@ def reverse_string(statement):
         st.push(ch)
     print("\n[1] POP 단계 ------------------------")
     out = []
-    while not st.is_emty():
+    while not st.is_empty():
         out. append(st.pop())
 
     result = ''.join(out)
